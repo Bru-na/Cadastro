@@ -1,0 +1,55 @@
+
+@media only screen and (min-width: 0px){
+    .box{
+        border-radius: 5%;
+        background-color: palevioletred;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color:white;
+        border: solid rgb(222, 135, 222);
+    }
+    .formulario{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border: solid blacks;
+    
+    }
+    .cadastro{
+    
+    }
+    .texto{
+        border:solid olivedrab;
+        border-radius: 5px;
+        /*font-family: solid"candara";*/
+        font-size: 15px;
+    }
+    .input{
+        border: solid pink;
+    }
+    .botao{
+    
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       background-color: white;
+       border-radius: 5px;
+       border-style: solid;
+        color: solid blue;
+        text-align: center;
+        border: solid palevioletred;
+    }
+    .botao:hover{
+
+        box-shadow: #4a4a4b;
+    }
+
+
+}
+.body{
+    margin: 0%;
+
+}
